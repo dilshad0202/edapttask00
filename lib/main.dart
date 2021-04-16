@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:graphql_flutter/graphql_flutter.dart';
 import 'package:edapt_task/providers/graphql_data.dart';
 import 'package:edapt_task/screen/movie_list_screen.dart';
-import 'dart:io';
 
 void main() {
   runApp(MyApp());

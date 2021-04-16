@@ -29,6 +29,7 @@ class DisplayDataProvider extends ChangeNotifier {
         return ListView.builder(
             itemCount: result.data['movies'].length,
             itemBuilder: (context, index) {
+           
               return Card(
                   elevation: 5,
                   margin: EdgeInsets.symmetric(vertical: 5, horizontal: 10),
